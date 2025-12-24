@@ -1,6 +1,7 @@
 {
   "name": "vanguards-evidence-collector",
   "private": true,
+  "homepage": "https://naveenkrish-17.github.io/vanguards-evidence-collector",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
