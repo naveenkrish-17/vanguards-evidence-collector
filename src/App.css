@@ -1,0 +1,89 @@
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.evidence-form-wrapper {
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.evidence-form label {
+  display: block;
+  margin: 0.75rem 0 0.25rem 0;
+  font-weight: 600;
+}
+.evidence-form .field {
+  margin: 1rem;
+}
+.evidence-form input[type="text"],
+.evidence-form input[type="file"],
+.evidence-form textarea,
+.evidence-form select {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  box-sizing: border-box;
+  background: #fbfdff;
+  color: #0f1724;
+}
+.evidence-form textarea { min-height: 140px; resize: vertical }
+.evidence-form input[type="text"] { min-height: 36px }
+.form-actions { margin-top: 1rem }
+.form-actions button { padding: 0.6rem 1rem }
+
+.preview-row { display:flex; align-items:center; margin-top:0.5rem }
+.preview-row img { border: 1px solid #eee; border-radius:4px }
+
+.scenario-toolbar { margin-bottom: 12px }
+.scenario-toolbar button { cursor: pointer }
+
+#appType {
+  font: "black";
+}
+.evidence-form input {
+  margin: 5px;
+  min-width: 100%;
+  min-height: 40px;
+}
